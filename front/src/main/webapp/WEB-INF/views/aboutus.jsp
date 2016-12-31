@@ -13,6 +13,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+  </style>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -49,21 +56,24 @@
   <p>Brigade Gateway,8th floor,</p>
   <p>26/1, Dr. Rajkumar Road,</p>
   <p>Malleshwaram(W), </p>
-  <p>Bangalore-560055 </p>
-  <p>India </p>
+  <p>Bangalore-560055, </p>
+  <p>India. </p>
   <p>contact us at:ECtronics@gmail.com</p> 
   </div>
   <div class="col-md-6">
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-      <div class="carousel-inner" role="listbox">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="resources/images/4.jpg" style="width:600px; height:600px">
+        <img src="resources/images/4.png" style="width:600px; height:600px">
       </div>
 
       <div class="item">
@@ -88,8 +98,8 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-    </div>
   </div>
 </div>
-</div>
-</body>
+
+ </body>
+</html>

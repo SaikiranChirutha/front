@@ -53,11 +53,11 @@
       </div>
     
       <div class="item">
-        <img src="resources/images/2.jpg" alt=" "  style="width:1200px; height:500px">
+        <img src="resources/images/12.jpg" alt=" "  style="width:1200px; height:500px">
       </div>
 
       <div class="item">
-        <img src="resources/images/3.jpg" alt=" " style="width:1200px; height:500px">
+        <img src="resources/images/9.jpg" alt=" " style="width:1200px; height:500px">
       </div>
     </div>
 
