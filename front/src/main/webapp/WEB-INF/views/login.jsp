@@ -2,12 +2,13 @@
 <html>
 <style>
 body {
-    background:#333;
+    background:#008080;
+    background-image:url("resources/images/10.png");
 }
 .form_bg {
-    background-color:#eee;
+    background-color:#00FA9A;
     color:#666;
-    padding:20px;
+    padding:40px;
     border-radius:10px;
     position: absolute;
     border:1px solid #fff;
@@ -16,8 +17,8 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    width: 320px;
-    height: 280px;
+    width: 400px;
+    height: 400px;
 }
 .align-center {
     text-align:center;
@@ -58,7 +59,7 @@ body {
     <div class="row">
         <div class="form_bg">
             <form>
-                 <h2 class="text-center">Login Page</h2>
+                 <h2 class="text-center">Login here</h2>
                 <br/>
                 <div class="form-group">
                     <input type="email" class="form-control" id="userid" placeholder="User id">
@@ -68,7 +69,11 @@ body {
                 </div>
                 <br/>
                 <div class="align-center">
-                    <button type="submit" class="btn btn-default" id="login">Login</button>
+                    <button type="submit" class="btn btn-default" id="login">Login</button><br><br>
+                    
+                     <input type="checkbox" name="vehicle" value="Bike" align="left">Remember me<br>
+                     <h4>Contact us:</h4>
+                     <p><a href="http://www.Ectronics@gmail.com/">Ectronics@gmail.com</a></p>
                 </div>
             </form>
         </div>
