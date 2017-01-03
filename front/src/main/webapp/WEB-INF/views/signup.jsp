@@ -7,7 +7,7 @@ body {
 }
 .form_bg {
     background-color:#A9A9A9;
-    color:#666;
+    color:#000000;
     padding:40px;
     border-radius:10px;
     position: absolute;
@@ -40,7 +40,7 @@ body {
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="/front">Home</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="services">Services</a></li>
 	  <li><a href="#">Brands</a></li>
       <li><a href="aboutus">About us</a></li>
 	  <li><a href="signup">Signup</a></li>

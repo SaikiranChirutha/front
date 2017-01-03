@@ -6,8 +6,8 @@ body {
     background-image:url("resources/images/10.png");
 }
 .form_bg {
-    background-color:#00FA9A;
-    color:#666;
+    background-color:#008080;
+    color:#000000;
     padding:40px;
     border-radius:10px;
     position: absolute;
@@ -40,7 +40,7 @@ body {
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="/front">Home</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="services">Services</a></li>
 	  <li><a href="#">Brands</a></li>
       <li><a href="aboutus">About us</a></li>
 	  <li><a href="signup">Signup</a></li>
@@ -73,7 +73,7 @@ body {
                     
                      <input type="checkbox" name="vehicle" value="Bike" align="left">Remember me<br>
                      <h4>Contact us:</h4>
-                     <p><a href="http://www.Ectronics@gmail.com/">Ectronics@gmail.com</a></p>
+                     <p><a href="http://www.Ectronics@gmail.com/" style="color: #CC0000">Ectronics@gmail.com</a></p>
                 </div>
             </form>
         </div>

@@ -30,4 +30,10 @@ public class HomeController{
 		System.out.println("aboutus page called");
 		return "aboutus";
 	}
+	@RequestMapping("/services")
+	public String services()
+	{
+		System.out.println("services page called");
+		return "services";
+	}
 }
