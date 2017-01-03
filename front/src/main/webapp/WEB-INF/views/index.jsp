@@ -9,7 +9,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -17,7 +16,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="/front">Home</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="services">Services</a></li>
 	  <li><a href="#">Brands</a></li>
       <li><a href="aboutus">About us</a></li>
 	  <li><a href="signup">Signup</a></li>

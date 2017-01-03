@@ -5,8 +5,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>About us</title>
-</head>
-<head>
   <title>E-ctronics</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +14,7 @@
   <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 50%;
+      width:50%;
       margin: auto;
   }
   </style>
@@ -29,7 +27,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="/front">Home</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="services">Services</a></li>
 	  <li><a href="#">Brands</a></li>
       <li><a href="aboutus">About us</a></li>
 	  <li><a href="signup">Signup</a></li>
@@ -45,13 +43,13 @@
 </nav>
 <div class="row">
   <div class="col-md-6">
-  <h3 colour="orange">About us</h3>
+  <h3 color="orange">About us</h3>
   <p>The E-Ctronics marketplace is operated by E-Ctronics Seller Services Private Ltd, an affiliate of E-Ctronics.com, Inc. (NASDAQ: ECT). E-Ctronics.in seeks to build the most customer-centric online destination for customers to find and discover virtually anything they want to buy online by giving them more of what they want  vast selection, low prices, fast and reliable delivery, and a trusted and convenient experience; and provide sellers with a world-class e-commerce platform. 
   </p>
   <br>
   <p>All Consumers on E-Ctronics.in and the E-Ctronics Mobile Shopping App for Android and iOS have an easy and convenient access to 80 million products across hundreds of categories. They benefit from a safe and secure ordering experience, convenient electronic payments, Cash on Delivery, Amazons 24x7 customer service support, and a globally recognized and comprehensive 100% purchase protection provided by E-Ctronics A-to-Z Guarantee. They can also enjoy E-Ctronics.ins guaranteed next-day, two day delivery, Sunday and Morning delivery on products fulfilled by E-Ctronics.</p> 
   <br>
-  <h3 colour="orange">Contact us</h3>
+  <h3 color="orange">Contact us</h3>
   <h7>Registered office address: </h7>
   <p>Brigade Gateway,8th floor,</p>
   <p>26/1, Dr. Rajkumar Road,</p>
@@ -73,19 +71,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="resources/images/4.png" style="width:600px; height:600px">
+        <img src="resources/images/4.png" style="width:660px; height:600px">
       </div>
 
       <div class="item">
-        <img src="resources/images/5.jpg" alt=" "style="width:600px; height:600px">
+        <img src="resources/images/5.jpg" alt=" "style="width:660px; height:600px">
       </div>
     
       <div class="item">
-        <img src="resources/images/6.jpg" alt=" "  style="width:600px; height:600px">
+        <img src="resources/images/6.jpg" alt=" "  style="width:660px; height:600px">
       </div>
 
       <div class="item">
-        <img src="resources/images/7.jpg" alt=" " style="width:600px; height:600px">
+        <img src="resources/images/7.jpg" alt=" " style="width:660px; height:600px">
       </div>
     </div>
 
