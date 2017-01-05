@@ -3,7 +3,9 @@ package com.backend.phonesbackend;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.backend.configuration.ApplicationConfig;
+import com.backend.dao.ProductDao;
 import com.backend.dao.UsersDao;
+import com.backend.model.Product;
 import com.backend.model.Users;
 
 public class App 
@@ -18,11 +20,11 @@ public class App
         user.setPassword("test");
         userDao.registerUser(user);
                   
-        /*ProductDao p=(ProductDao)annotationConfigApplicationContext.getBean("productDaoImpl");
+        ProductDao p=(ProductDao)annotationConfigApplicationContext.getBean("productDaoImpl");
         Product product=new Product();
         product.setPname("test");
         product.setPrice(900.0f);
-        p.addProduct(product);*/
+        p.addProduct(product);
     
     
     
