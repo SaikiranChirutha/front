@@ -14,11 +14,11 @@ public class App
     {
         AnnotationConfigApplicationContext annotationConfigApplicationContext=new AnnotationConfigApplicationContext(ApplicationConfig.class);
       //annotationConfigApplicationContext.refresh();
-        UsersDao userDao=(UsersDao)annotationConfigApplicationContext.getBean("userDaoImpl");
+       /* UsersDao userDao=(UsersDao)annotationConfigApplicationContext.getBean("userDaoImpl");
         Users user=new Users();
         user.setUserName("test");
         user.setPassword("test");
-        userDao.registerUser(user);
+        userDao.registerUser(user);*/
                   
         ProductDao p=(ProductDao)annotationConfigApplicationContext.getBean("productDaoImpl");
         Product product=new Product();
