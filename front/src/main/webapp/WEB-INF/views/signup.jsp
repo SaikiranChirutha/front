@@ -18,7 +18,7 @@ body {
     bottom: 0;
     left: 0;
     width: 400px;
-    height: 550px;
+    height: 600px;
 }
 .align-center {
     text-align:center;
@@ -84,6 +84,8 @@ Password">
                 <br/>
                 <div class="align-center">
                     <button type="submit" class="btn btn-default" id="register">Register</button><br><br>
+                    <h6>already have an account</h6>
+                     <p><a href="login">login</a></p>
            <h4>Contact us:</h4>
                      <p><a href="http://www.Ectronics@gmail.com/">Ectronics@gmail.com</a></p>
                 </div>
