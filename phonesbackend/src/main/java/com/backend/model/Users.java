@@ -7,14 +7,14 @@ import javax.persistence.Id;
 @Entity
 public class Users {
 	@Id@GeneratedValue
-	private int sid;
+	private int userId;
 	private String userName;
 	private String password;
-	public int getSid() {
-		return sid;
+	public int getUserId() {
+		return userId;
 	}
-	public void setSid(int sid) {
-		this.sid = sid;
+	public void setUserId(int userId) {
+		this.userId = userId;
 	}
 	public String getUserName() {
 		return userName;
@@ -29,5 +29,6 @@ public class Users {
 		this.password = password;
 	}
 	
-
-}
+	
+	}
+	

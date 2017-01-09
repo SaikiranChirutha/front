@@ -1,23 +1,23 @@
 package com.backend.dao;
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.backend.model.Product;
+import com.backend.model.Category;
 
-@Repository("productDaoImpl")
+
+@Repository("CategoryDaoImpl")
 @Transactional
-public class ProductDaoImpl implements ProductDao {
+public class CategoryDaoImpl implements CategoryDao {
 	@Autowired
 	private SessionFactory sessionFactory;
-	public void addProduct(Product product) {
+	public void addCategory(Category category){
 		Session session=sessionFactory.getCurrentSession();
-		session.save(product);
-		System.out.println("product saved");
-		
+		session.save(category);
+		System.out.println("categories saved");
 	}
+	
 
 }

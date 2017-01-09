@@ -1,25 +1,24 @@
 package com.backend.dao;
 
-import org.h2.engine.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.backend.model.Users;
+import com.backend.model.Category;
+import com.backend.model.Suppliers;
 
-@Repository("UserDaoImpl")
+@Repository("SuppliersDaoImpl")
 @Transactional
-public class UserDaoImpl implements UsersDao  {
+
+public class SuppliersDaoImpl implements SuppliersDao {
 	@Autowired
 	private SessionFactory sessionFactory;
-	public void registerUser(Users user) {
-		// TODO Auto-generated method stub
+	public void addSuppliers(Suppliers supplier){
 		Session session=sessionFactory.getCurrentSession();
-		session.save(user);
-		System.out.println("user values saved");
+		session.save(supplier);
+		System.out.println("categories saved");
 	}
-	}
-
-
+	
+}
