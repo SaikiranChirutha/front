@@ -80,4 +80,21 @@ body {
     </div>
 </div>
 </body>
+<centre>
+ <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation" style="background-color:;">
+    <div class="container">
+    <div class="navbar-text pull-left">
+        <p>© 2017 SaiKiran Chirutha ALL RIGHTS RESERVED </p>
+        </div>
+    
+    <div class="nav navbar-nav navbar-right">
+   <a href="https://www.facebook.com"><i class="fa fa-facebook-square"></i></a>&nbsp
+    <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>&nbsp
+    <a href="https://www.github.com"><i class="fa fa-github fa-2x"></i></a>&nbsp
+    <a href="https://www.youtuub.com"><i class="fa fa-youtube fa-2x"></i></a>&nbsp
+   </div>
+</div>
+</div>
+</centre>
+
 </html>

@@ -58,7 +58,7 @@ body {
 <div class="container">
     <div class="row">
         <div class="form_bg">
-            <form>
+            <form action="check">
                  <h3 class="text-center">Register here</h3>
                 <br/>
                 <div class="form-group">
@@ -83,9 +83,9 @@ Password">
                 </div>
                 <br/>
                 <div class="align-center">
-                    <button type="submit" class="btn btn-default" id="register">Register</button><br><br>
+                    <input type="submit"  value="submitthedata" class="btn btn-default"/><br><br>
                     <h6>already have an account</h6>
-                     <p><a href="login">login</a></p>
+                     <p><a href="signmein">check</a></p>
            <h4>Contact us:</h4>
                      <p><a href="http://www.Ectronics@gmail.com/">Ectronics@gmail.com</a></p>
                 </div>
@@ -94,4 +94,20 @@ Password">
     </div>
 </div>
 </body>
+<centre>
+ <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation" style="background-color:;">
+    <div class="container">
+    <div class="navbar-text pull-left">
+        <p>© 2017 SaiKiran Chirutha ALL RIGHTS RESERVED </p>
+        </div>
+    
+    <div class="nav navbar-nav navbar-right">
+   <a href="https://www.facebook.com"><i class="fa fa-facebook-square"></i></a>&nbsp
+    <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>&nbsp
+    <a href="https://www.github.com"><i class="fa fa-github fa-2x"></i></a>&nbsp
+    <a href="https://www.youtuub.com"><i class="fa fa-youtube fa-2x"></i></a>&nbsp
+   </div>
+</div>
+</div>
+</centre>
 </html>

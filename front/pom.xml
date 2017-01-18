@@ -42,6 +42,11 @@
     <artifactId>spring-beans</artifactId>
     <version>4.3.4.RELEASE</version>
 </dependency>
+<dependency>
+<groupId>com.backend</groupId>
+  <artifactId>phonesbackend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</dependency>
   </dependencies>
   
   <build>

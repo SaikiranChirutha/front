@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdjns.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -74,4 +75,21 @@
 
 
 </body>
+ <centre>
+ <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation" style="background-color:;">
+    <div class="container">
+    <div class="navbar-text pull-left">
+        <p>© 2017 SaiKiran Chirutha ALL RIGHTS RESERVED </p>
+        </div>
+    
+    <div class="nav navbar-nav navbar-right">
+   <a href="https://www.facebook.com"><i class="fa fa-facebook-square"></i></a>&nbsp
+    <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>&nbsp
+    <a href="https://www.github.com"><i class="fa fa-github fa-2x"></i></a>&nbsp
+    <a href="https://www.youtuub.com"><i class="fa fa-youtube fa-2x"></i></a>&nbsp
+   </div>
+</div>
+</div>
+</centre>
+
 </html>
